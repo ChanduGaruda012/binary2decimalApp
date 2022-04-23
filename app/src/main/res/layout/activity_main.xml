@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:digits="01"
+        android:hint="Binary Number"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Submit"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="8dp"
+        android:hint="Answer will appear here"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/output"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="Reset"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reset"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="24dp"
+        android:text=" Click on Submit Button after entering a Binary Number"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text=" Click on Reset Button to reset"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editTe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="8dp"
+        android:padding="10dp"
+        android:text="Binary to Decimal Converter"
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTe"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="8dp"
+        android:padding="10dp"
+        android:text="Enter a Binary Number"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginRight="8dp"
+        android:text="Decimal Number"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
